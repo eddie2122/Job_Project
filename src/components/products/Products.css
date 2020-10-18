@@ -1,0 +1,119 @@
+.RecommendedProducts {
+  position: absolute;
+  top: 111px;
+  left: 30px;
+  width: 283px;
+  height: 28px;
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal bold 28px/40px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.Filters {
+  position: absolute;
+  top: 169px;
+  left: 30px;
+  width: 104px;
+  height: 16px;
+  text-align: left;
+  font: normal normal normal 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #363636;
+  opacity: 1;
+}
+
+.Continental {
+  top: 160px;
+  left: 141px;
+  width: 131px;
+  height: 32px;
+  background: var(--unnamed-color-e0e0e0) 0% 0% no-repeat padding-box;
+  border: 0.5px solid var(--unnamed-color-000000);
+  background: #e0e0e0 0% 0% no-repeat padding-box;
+  border: 0.5px solid #000000;
+  border-radius: 16px;
+  opacity: 1;
+  position: absolute;
+}
+.SortBy {
+  position: absolute;
+  top: 169px;
+  left: 1166px;
+  width: 51px;
+  height: 16px;
+  text-align: right;
+  font: normal normal normal 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #363636;
+  opacity: 1;
+}
+
+.Popularity {
+  position: absolute;
+  top: 160px;
+  left: 1225px;
+  width: 114px;
+  height: 32px;
+  background: var(--unnamed-color-e0e0e0) 0% 0% no-repeat padding-box;
+  border: 0.5px solid var(--unnamed-color-000000);
+  background: #e0e0e0 0% 0% no-repeat padding-box;
+  border: 0.5px solid #000000;
+  border-radius: 16px;
+  opacity: 1;
+}
+.ContinentalText {
+  position: absolute;
+  bottom: 9.5px;
+  left: 14px;
+  width: 77px;
+  height: 16px;
+  color: var(--unnamed-color-000000);
+  text-align: right;
+  font: normal normal normal 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.DeSelect {
+  position: absolute;
+  top: 3.37px;
+  left: 3.37px;
+  width: 7px;
+  height: 7px;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  border: 2px solid #ffffff;
+  opacity: 1;
+}
+.DeSelectBox {
+  position: absolute;
+  top: 8px;
+  left: 103px;
+  width: 16px;
+  height: 16px;
+  background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+}
+.PopularityName {
+  position: absolute;
+  top: 9px;
+  left: 12px;
+  width: 69px;
+  height: 16px;
+  color: var(--unnamed-color-000000);
+  text-align: right;
+  font: normal normal normal 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.HorizontalLine{
+  position: relative;
+  top:120px;
+  width:1309px;
+  left:30px;
+}

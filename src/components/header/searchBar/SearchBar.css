@@ -1,0 +1,93 @@
+input {
+  position: absolute;
+  top: 20px;
+  left: 420px;
+  width: 525px;
+  height: 40px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.5px solid #9c9d9d;
+  border-radius: 48px;
+  opacity: 1;
+  outline: none;
+}
+input::placeholder {
+  position: absolute;
+  padding-left: 10px;
+  top: 34px;
+  left: 438px;
+  width: 39px;
+  height: 15px;
+  text-align: left;
+  font: normal normal normal 14px/21px Calibri;
+  letter-spacing: 0px;
+  color: #9c9d9d;
+  opacity: 1;
+}
+.Main {
+  position: absolute;
+  top: 22px;
+  left: 907px;
+  width: 39px;
+  height: 39px;
+  background: var(--unnamed-color-ffa500) 0% 0% no-repeat padding-box;
+  background: #ffa500 0% 0% no-repeat padding-box;
+  border-radius: 21px;
+  opacity: 1;
+}
+.SearchIconCircle {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--unnamed-color-000000);
+  border: 2px solid #000000;
+  border-radius: 50%;
+  opacity: 1;
+}
+.SearchIconLine {
+  position: absolute;
+  top: 23px;
+  left: 27px;
+  height: 5px;
+  border: 2px solid var(--unnamed-color-000000);
+  border: 1px solid #000000;
+  opacity: 1;
+  transform: rotate(-45deg);
+}
+
+@media only screen and (max-width: 1024px){
+  input{
+    position: absolute;
+    width: 400px;
+    left: 312px;
+
+  }
+  .Main{
+    position: absolute;
+    left : 674px;
+  }
+}
+@media only screen and (max-width : 768px){
+  input{
+    position: absolute;
+    width: 284px;
+    left: 212px;
+    top: 20px;
+
+  }
+  .Main{
+    position: absolute;
+    left : 458px;
+  }
+}
+@media only screen and (max-width : 600px){
+  input{
+    display: none;
+  }
+  .Main{
+    position: absolute;
+    left : 182px;
+    top:14px;
+  }
+}

@@ -1,0 +1,52 @@
+.Account-Box-Other {
+  position: absolute;
+  top: 0px;
+  left: 1227px;
+  width: 60px;
+  height: 80px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.OthersImg {
+  position: absolute;
+  top: 21px;
+  left: 20px;
+  width: 20px;
+  height: 25px;
+  background: transparent url("/images/img/document-text-sharp.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.OthersName {
+  width: 46px;
+  height: 15px;
+  margin-top: 52px;
+  margin-left: 11px;
+  text-align: center;
+  font: normal normal normal 14px/7px Calibri;
+  letter-spacing: 0px;
+  color: #9c9d9d;
+  opacity: 1;
+}
+
+@media only screen and (max-width : 1024px){
+  .Account-Box-Other{
+    position: absolute;
+    left: 876px;
+  }
+}
+@media only screen and (max-width : 768px){
+  .Account-Box-Other{
+    position: absolute;
+    left: 620px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Account-Box-Other {
+    height: 56px;
+    left: 269px;
+  }
+}
+

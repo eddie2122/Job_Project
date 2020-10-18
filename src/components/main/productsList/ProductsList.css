@@ -1,0 +1,190 @@
+.ContinentalP6 {
+  position: absolute;
+  top: 19px;
+  left: 18px;
+  width: 135px;
+  height: 40px;
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal bold 16px/24px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.ProductsContainer1 {
+  position: absolute;
+  top: 416px;
+  left: 30px;
+  width: 1306px;
+  height: 80px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 6px 6px 16px #00000008;
+  border-radius: 1px;
+  opacity: 1;
+}
+
+.Logoimg {
+  position: absolute;
+  top: 14.06px;
+  left: 208px;
+  width: 64px;
+  height: 52px;
+  background: transparent url("/images/img/Logo_OE_Approved_1c_black_final.png")
+    0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.TyreSize {
+  position: absolute;
+  top: 19px;
+  left: 327px;
+  width: 106px;
+  height: 16px;
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.Suv {
+  position: absolute;
+  top: 43px;
+  left: 327px;
+  width: 27px;
+  height: 16px;
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.Price {
+  position: absolute;
+  left: 619.61px;
+  top: 32px;
+  width: 77px;
+  height: 16px;
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.Buttoninc {
+  position: absolute;
+  top: 20px;
+  left: 836px;
+  width: 40px;
+  height: 40px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.25px solid #9c9d9d;
+  border-radius: 1px;
+  opacity: 1;
+}
+.Buttondec {
+  position: absolute;
+  top: 20px;
+  left: 756.43px;
+  width: 40px;
+  height: 40px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.25px solid #9c9d9d;
+  border-radius: 1px;
+  opacity: 1;
+}
+.CountC {
+  position: absolute;
+  top: 20px;
+  left: 772.43px;
+  width: 86px;
+  height: 40px;
+  background: var(--unnamed-color-e0e0e0) 0% 0% no-repeat padding-box;
+  background: #e0e0e0 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.CountNumberC {
+  position: absolute;
+  top: 13.35px;
+  left: 34.55px;
+  width: 8px;
+  height: 16px;
+  color: var(--unnamed-color-000000);
+  text-align: center;
+  font: normal normal bold 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.TotalCash {
+  position: absolute;
+  top: 33px;
+  left: 951.95px;
+  width: 101px;
+  height: 16px;
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.CartBoxC {
+  position: absolute;
+  top: 20px;
+  left: 1134px;
+  width: 152px;
+  height: 40px;
+  background: var(--unnamed-color-ffa500) 0% 0% no-repeat padding-box;
+  background: #ffa500 0% 0% no-repeat padding-box;
+  border-radius: 48px;
+  opacity: 1;
+  outline: none;
+}
+.YelloCartIMageC {
+  position: absolute;
+  top: 10px;
+  left: 17.82px;
+  width: 24px;
+  height: 21px;
+  background: transparent url("/images/img/cart-sharp.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.AddToCartC {
+  position: absolute;
+  bottom: 13px;
+  left: 54px;
+  width: 76px;
+  height: 16px;
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal bold 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.YelloBellImage {
+  position: absolute;
+  top: 10px;
+  left: 23px;
+  width: 16px;
+  height: 20px;
+  background: transparent url("/images/img/notifications-sharp.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.BellBoxC {
+  position: absolute;
+  top: 20px;
+  left: 1137px;
+  width: 152px;
+  height: 40px;
+  border: 2px solid var(--unnamed-color-ffa500);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #ffa500;
+  border-radius: 20px;
+  opacity: 1;
+}

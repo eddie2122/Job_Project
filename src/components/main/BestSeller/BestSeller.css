@@ -1,0 +1,40 @@
+.SellerBox {
+  position: absolute;
+  top: 225px;
+  left: 30px;
+  width: 646px;
+  height: 175px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 20px #00000008;
+  opacity: 1;
+}
+
+.TyreImageBox {
+  position: absolute;
+  top: 36px;
+  left: 30px;
+  width: 123px;
+  height: 123px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.AutoExpress {
+  position: absolute;
+  top: 30.32px;
+  left: 124.29px;
+  width: 41px;
+  height: 73px;
+  opacity: 1;
+}
+
+.LogoOE {
+  position:absolute;
+  top: 55px;
+  left: 208.51px;
+  width: 64px;
+  height: 52px;
+  background: transparent url("/images/img/Logo_OE_Approved_1c_black_final.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}

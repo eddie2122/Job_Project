@@ -1,0 +1,54 @@
+.Account-Box-Cart {
+  position: absolute;
+  top: 0px;
+  left: 1289px;
+  width: 60px;
+  height: 80px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.CartImg {
+  position: absolute;
+  top: 21px;
+  left: 12.68px;
+  width: 29px;
+  height: 26px;
+  background: transparent url("/images/img/cart-sharp.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.CartName {
+  position: absolute;
+  width: 46px;
+  height: 15px;
+  margin-top: 52px;
+  margin-left: 11px;
+  text-align: center;
+  font: normal normal normal 14px/7px Calibri;
+  letter-spacing: 0px;
+  color: #9c9d9d;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1024px){
+  .Account-Box-Cart{
+    left: 938px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .Account-Box-Cart{
+    left: 682px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Account-Box-Cart {
+    height: 56px;
+    left: 315px;
+  }
+  p {
+    display: none;
+  }
+}
+

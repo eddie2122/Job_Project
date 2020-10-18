@@ -1,0 +1,56 @@
+.Account-Box-Profile {
+  position: absolute;
+  top: 0px;
+  left: 1159px;
+  width: 60px;
+  height: 80px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.ProfileImg {
+  position: absolute;
+  top: 20px;
+  left: 18px;
+  width: 24px;
+  height: 26px;
+  background: transparent url("/images/img/person-sharp.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.ProfileName {
+  position: absolute;
+  width: 46px;
+  height: 15px;
+  margin-top: 52px;
+  margin-left: 11px;
+  text-align: center;
+  font: normal normal normal 14px/7px Calibri;
+  letter-spacing: 0px;
+  color: #9c9d9d;
+  opacity: 1;
+}
+@media only screen and (max-width: 1024px) {
+  .Account-Box-Profile {
+    position: absolute;
+    left: 808px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Account-Box-Profile {
+    position: absolute;
+    left: 552px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Account-Box-Profile {
+    position: absolute;
+    height: 56px;
+    left: 221px;
+  }
+  .ProfileImg {
+    top: 17px;
+    left: 14px;
+  }
+}
