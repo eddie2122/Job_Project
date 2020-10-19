@@ -13,7 +13,13 @@ export class Products extends Component {
                 <div className="DeSelect"></div></div>
                 </div>
                 <h3 className="SortBy"><b><i>Sort by:</i></b></h3>
-                <div className="Popularity"><h3 className="PopularityName"><i>Popularity</i></h3></div>
+                <select className="Popularity">
+    <option selected disabled>Popularity</option>
+    <option value="sydney">Lowest Prize</option>
+    <option value="melbourne">Most Stock</option>
+    <option value="cromwell">Model A-Z</option>
+    <option value="queenstown">Code No.</option>
+</select>
             </div>
             <hr className="HorizontalLine"/>
             </div>

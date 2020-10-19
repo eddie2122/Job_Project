@@ -12,17 +12,6 @@
   color: #000000;
   opacity: 1;
 }
-.ProductsContainer1 {
-  position: absolute;
-  top: 416px;
-  left: 30px;
-  width: 1306px;
-  height: 80px;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 6px 6px 16px #00000008;
-  border-radius: 1px;
-  opacity: 1;
-}
 
 .Logoimg {
   position: absolute;
@@ -60,7 +49,7 @@
   color: #000000;
   opacity: 1;
 }
-.Price {
+.PriceC {
   position: absolute;
   left: 619.61px;
   top: 32px;
@@ -187,4 +176,95 @@
   border: 2px solid #ffa500;
   border-radius: 20px;
   opacity: 1;
+}
+.StockAvailableYes {
+  position: absolute;
+  top: 26.07px;
+  left: 538.54px;
+  width: 14px;
+  height: 14px;
+  background: #008435 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 50%;
+}
+.StockAvailableYes::after {
+  position: absolute;
+  top: 2.37px;
+  left: 4.54px;
+  content: "";
+  display: block;
+  width: 3px;
+  height: 6px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.StockPL {
+  position: absolute;
+  top: 20px;
+  left: 491px;
+  width: 27px;
+  height: 16px;
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.AvailableTyres {
+  position: absolute;
+  top: 45px;
+  left: 490px;
+  width: 90px;
+  height: 15px;
+  color: var(--unnamed-color-000000);
+  text-align: center;
+  font: normal normal bold 14px/21px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+@media only screen and (max-width: 1024px) {
+  .ContinentalP6 {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 25px;
+    top: 19px;
+    font: normal normal bold 16px/24px Calibri;
+  }
+  .Logoimg {
+    position: absolute;
+    width: 64px;
+    height: 52px;
+    left: 191px;
+    top: 14.06px;
+  }
+  .TyreSize {
+    position: absolute;
+    width: 106px;
+    height: 16px;
+    left: 274px;
+    top: 19px;
+  }
+  .Suv{
+    position: absolute;
+    width: 27px;
+    height: 16px;
+    left: 874px;
+    top: 43px;
+  }
+  .PriceC{
+    position: absolute;
+    left: 475px;
+    top: 32px;
+  }
+  .TotalCash{
+    position: absolute;
+    width: 101px;
+    height: 20px;
+    top: 30px;
+    left: 723px;
+  }
 }

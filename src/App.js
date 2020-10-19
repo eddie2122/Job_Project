@@ -18,12 +18,13 @@ function App() {
         <Tyre/>
       </div>
       </div>
-      <div className="ProductsContainer1">
+      <div className="ProductContainer1">
       <ProductsList 
       name = "Add to Cart"
       img = "/images/cart-sharp-black.png"
       classImg = "YelloCartIMageC"
       classDivBox = "CartBoxC"
+      StockAvailableYes = "StockAvailableYes"
       />
       </div>
       <div className="ProductContainer2">
@@ -32,6 +33,7 @@ function App() {
       img = "/images/cart-sharp-black.png"
       classImg = "YelloCartIMageC"
       classDivBox = "CartBoxC"
+      tyresAvailable = "8 Tires Left"
       />
       </div>
       <div className="ProductContainer3">
@@ -40,6 +42,7 @@ function App() {
       img = "/images/notifications-sharp.png"
       classImg = "YelloBellImage"
       classDivBox = "BellBoxC"
+      tyresAvailable = "Back in 1 week"
       />
       </div>
     </div>

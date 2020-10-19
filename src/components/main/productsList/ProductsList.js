@@ -26,16 +26,20 @@ export class ProductsList extends Component {
         return (
             <div>
                 <p className="ContinentalP6">
-                    Continental <br/>PremiumContact &trade;  
+                    Continental <br/>PremiumContact &trade;6  
                 </p>
                 <img className="Logoimg" src="/images/Logo_OE_Approved_1c_black_final.png" alt="LogoOE"></img>
                 <p className="TyreSize"><i>195/55 R16 H</i></p>
                 <p className="Suv"><i>SUV</i></p>
+                <p className="StockPL"><i>Stock</i></p>
+                <div className={this.props.StockAvailableYes}>
+                    <p className="AvailableTyres">{this.props.tyresAvailable}</p>
+                </div>
                 <div className="CountC"><div className="CountNumberC">{this.state.count}</div></div>
                 <button className="Buttondec" onClick={this.decrement}>-</button>
                 <button className="Buttoninc" onClick={this.increment}>+</button>
-                <p className="Price"><i>Price 340</i></p>
-                <p className="TotalCash">Total {this.state.count * 340}</p>
+                <p className="PriceC"><i>Price &#8362;340</i></p>
+                <p className="TotalCash">Total &#8362;{this.state.count * 340}</p>
                 <button onclick={this.thankYou}className={this.props.classDivBox}>
                     <img src={this.props.img} alt="Cart" className={this.props.classImg}></img>
                     <p className="AddToCartC">{this.props.name}</p>

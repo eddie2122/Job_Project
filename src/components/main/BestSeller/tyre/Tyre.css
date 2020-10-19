@@ -62,16 +62,20 @@
   height: 14px;
   background: #008435 0% 0% no-repeat padding-box;
   opacity: 1;
+  border-radius: 50%;
 }
 
-.Tick {
+.StockAvailable::after {
   position: absolute;
-  top: 5.07px;
+  top: 2.37px;
   left: 4.54px;
-  width: 5px;
-  height: 5px;
-  border: 2px solid #ffffff;
-  opacity: 1;
+  content: "";
+  display: block;
+  width: 3px;
+  height: 6px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 
 .Price {
@@ -82,7 +86,20 @@
   height: 16px;
   opacity: 1;
 }
-.Total {
+.PriceNum {
+  position: absolute;
+  top: 87px;
+  left: 466px;
+  width: 37px;
+  height: 16px;
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 16px/23px Calibri;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.TotalA {
   position: absolute;
   top: 63px;
   left: 534px;
@@ -187,4 +204,325 @@
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .TyreName {
+    position: absolute;
+    font: normal normal bold 20px/28px Calibri;
+    width: 260px;
+    height: 20px;
+    font-size: 20px;
+    left: 129px;
+    top: 26px;
+  }
+  .Specification {
+    position: absolute;
+    width: 79px;
+    height: 15px;
+    left: 209px;
+    top: 64px;
+    font: normal normal normal 14px/21px Calibri;
+  }
+  .Model {
+    position: absolute;
+    left: 209px;
+    top: 88px;
+    width: 24px;
+    height: 15px;
+    font: normal normal normal 14px/21px Calibri;
+  }
+  .Stock {
+    position: absolute;
+    width: 31px;
+    height: 15px;
+    left: 299px;
+    top: 64px;
+    font: normal normal normal 14px/21px Calibri;
+  }
+  .StockAvailable {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 338px;
+    top: 64px;
+  }
+  .Price {
+    position: absolute;
+    width: 32px;
+    height: 15px;
+    left: 299px;
+    top: 89px;
+    font: normal normal normal 14px/21px Calibri;
+  }
+  .Button- {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 129px;
+    top: 119px;
+  }
+  .ButtonPlus {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 209px;
+    top: 119px;
+  }
+  .Count {
+    position: absolute;
+    width: 86px;
+    height: 40px;
+    left: 150px;
+    top: 119px;
+  }
+  .PriceNum {
+    position: absolute;
+    width: 32px;
+    height: 15px;
+    font: normal normal normal 14px/21px Calibri;
+    left: 339px;
+    top: 89px;
+  }
+  .TotalA {
+    position: absolute;
+    width: 29px;
+    height: 15px;
+    left: 385px;
+    top: 64px;
+    font: normal normal normal 14px/21px Calibri;
+  }
+  .TotalPrice {
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 385px;
+    top: 85px;
+    font: normal normal bold 20px/28px Calibri;
+  }
+  .CartBox {
+    position: absolute;
+    width: 152px;
+    height: 40px;
+    left: 296px;
+    top: 119px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .TyreName {
+    position: absolute;
+    font: normal normal bold 16px/23px Calibri;
+    width: 135px;
+    height: 16px;
+    font-size: 16px;
+    left: 153px;
+  }
+  .Specification {
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 204px;
+    top: 72px;
+    font: normal normal normal 14px/21px Calibri;
+  }
+  .Model {
+    position: absolute;
+    font: normal normal normal 14px/21px Calibri;
+    left: 204px;
+    top: 95px;
+    width: 24px;
+    height: 15px;
+  }
+  .Stock {
+    position: absolute;
+    width: 31px;
+    height: 15px;
+    left: 153.04px;
+    top: 121.54px;
+    font: normal normal normal 14px/21px Calibri;
+  }
+  .StockAvailable {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 162.04px;
+    top: 141.53px;
+  }
+  .Price {
+    position: absolute;
+    width: 28px;
+    height: 15px;
+    left: 204px;
+    top: 122px;
+    font: normal normal normal 14px/21px Calibri;
+  }
+  .Button- {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 19px;
+    top: 177px;
+  }
+  .ButtonPlus {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 105px;
+    top: 177px;
+  }
+  .Count {
+    position: absolute;
+    width: 86px;
+    height: 40px;
+    left: 39px;
+    top: 177px;
+  }
+  .PriceNum {
+    position: absolute;
+    width: 32px;
+    height: 15px;
+    font: normal normal normal 14px/21px Calibri;
+    left: 204px;
+    top: 145px;
+  }
+  .TotalA {
+    position: absolute;
+    width: 29px;
+    height: 15px;
+    left: 254px;
+    top: 122px;
+    font: normal normal normal 14px/21px Calibri;
+  }
+  .TotalPrice {
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 254px;
+    top: 141px;
+    font: normal normal bold 20px/28px Calibri;
+  }
+  .CartBox {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 193px;
+    top: 177px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .TyreName {
+    display: block;
+    font: normal normal bold 16px/23px Calibri;
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    font-size: 16px;
+    left: 116px;
+  }
+  .Specification {
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 156px;
+    top: 72px;
+    font: normal normal normal 14px/21px Calibri;
+    display: block;
+  }
+  .Model {
+    position: absolute;
+    left: 156px;
+    top: 95px;
+    width: 24px;
+    height: 15px;
+    font: normal normal normal 14px/21px Calibri;
+    display: block;
+  }
+  .Stock {
+    position: absolute;
+    width: 31px;
+    height: 15px;
+    top: 121.54px;
+    left: 113px;
+    font: normal normal normal 14px/21px Calibri;
+    display: block;
+  }
+  .StockAvailable {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 122px;
+    top: 141.53px;
+  }
+  .Price {
+    position: absolute;
+    width: 28px;
+    height: 15px;
+    font: normal normal normal 14px/21px Calibri;
+    left: 156px;
+    top: 122px;
+    display: block;
+  }
+  .Button- {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 19px;
+    top: 177px;
+  }
+  .ButtonPlus {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 105px;
+    top: 177px;
+  }
+  .Count {
+    position: absolute;
+    width: 86px;
+    height: 40px;
+    left: 39px;
+    top: 177px;
+  }
+  .PriceNum {
+    position: absolute;
+    width: 32px;
+    height: 15px;
+    font: normal normal normal 14px/21px Calibri;
+    left: 156px;
+    top: 145px;
+    display: block;
+  }
+  .TotalA {
+    position: absolute;
+    width: 29px;
+    height: 15px;
+    left: 254px;
+    top: 122px;
+    font: normal normal normal 14px/21px Calibri;
+  }
+  .TotalA {
+    position: absolute;
+    width: 29px;
+    height: 15px;
+    left: 200px;
+    top: 122px;
+    font: normal normal normal 14px/21px Calibri;
+    display: block;
+  }
+  .TotalPrice {
+    position: absolute;
+    display: block;
+    width: 61px;
+    height: 20px;
+    left: 200px;
+    top: 141px;
+    font: normal normal bold 20px/28px Calibri;
+  }
+  .CartBox {
+    position: absolute;
+    width: 77px;
+    height: 40px;
+    left: 184px;
+    top: 177px;
+  }
 }

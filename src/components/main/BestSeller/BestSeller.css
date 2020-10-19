@@ -29,12 +29,131 @@
 }
 
 .LogoOE {
-  position:absolute;
+  position: absolute;
   top: 55px;
   left: 208.51px;
   width: 64px;
   height: 52px;
-  background: transparent url("/images/img/Logo_OE_Approved_1c_black_final.png") 0% 0%
-    no-repeat padding-box;
+  background: transparent url("/images/img/Logo_OE_Approved_1c_black_final.png")
+    0% 0% no-repeat padding-box;
   opacity: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .SellerBox {
+    position: absolute;
+    left: 40px;
+    width: 460px;
+  }
+  .TyreImageBox {
+    position: absolute;
+    height: 104.88px;
+    top: 34.12px;
+    left: 1px;
+  }
+  .Tyreimg {
+    position: absolute;
+    width: 104.88px;
+  }
+  .AutoExpress {
+    position: absolute;
+    top: 33.54px;
+    left: 77.12px;
+  }
+  .Autoimg {
+    position: absolute;
+    width: 34.86px;
+    height: 62.34px;
+  }
+  .LogoOE {
+    position: absolute;
+    top: 58px;
+    left: 129px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .SellerBox {
+    position: absolute;
+    left: 32px;
+    top: 220px;
+    width: 334px;
+    height: 236px;
+  }
+  .TyreImageBox {
+    position: absolute;
+    top: 37.89px;
+    left: 0px;
+  }
+  .Tyreimg {
+    position: absolute;
+    width: 102.52px;
+    height: 102.52px;
+  }
+  .AutoExpress {
+    position: absolute;
+
+    top: 0px;
+    left: 75.42px;
+  }
+  .Autoimg {
+    position: absolute;
+    width: 28.11px;
+    height: 55.03px;
+  }
+  .LogoOE {
+    position: absolute;
+    
+    top: 71.83px;
+    left: 152px;
+  }
+  .OEimg{
+    position: absolute;
+    width: 39.02px;
+    height: 31.07px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .SellerBox {
+    position: absolute;
+    left: 18px;
+    top: 120px;
+    width: 280px;
+    height: 236px;
+  }
+  .TyreImageBox {
+    position: absolute;
+    width: 102.52;
+    height: 102.52;
+    top: 37.89px;
+    left: 0px;
+  }
+  .Tyreimg {
+    position: absolute;
+    width: 102.52px;
+    height: 102.52px;
+  }
+  .AutoExpress {
+    position: absolute;
+    width: 28.11px;
+    height: 55.03px;
+    top: 0px;
+    left: 75.42px;
+  }
+  .Autoimg {
+    position: absolute;
+    width: 28.11px;
+    height: 55.03px;
+  }
+  .LogoOE {
+    position: absolute;
+    width: 39.02px;
+    height: 31.07px;
+    top: 71.83px;
+    left: 109px;
+  }
+  .OEimg{
+    position: absolute;
+    width: 39.02;
+    height: 31.07px;
+  }
 }

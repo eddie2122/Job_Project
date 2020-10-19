@@ -11,11 +11,10 @@ export default class Links extends React.Component {
              image : ""
         }
     }
-    
     render() {
         return (
             <div className={this.props.classDiv}>
-                <img  className={this.props.classImg} src={this.props.img} alt="a"></img>
+                <img  onHover={this.dropdown} className={this.props.classImg} src={this.props.img} alt="a"></img>
                 <p className= {this.props.profileName}><i>{this.props.text}</i></p>
             </div>
         )

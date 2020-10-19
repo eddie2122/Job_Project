@@ -63,6 +63,7 @@
   border: 0.5px solid #000000;
   border-radius: 16px;
   opacity: 1;
+  outline: none;
 }
 .ContinentalText {
   position: absolute;
@@ -77,15 +78,24 @@
   color: #000000;
   opacity: 1;
 }
-.DeSelect {
+.DeSelect::after {
+  content: "";
+  height: 8px;
+  border-left: 1px solid #fff;
   position: absolute;
-  top: 3.37px;
-  left: 3.37px;
-  width: 7px;
-  height: 7px;
-  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
-  border: 2px solid #ffffff;
-  opacity: 1;
+  transform: rotate(45deg);
+  left: 7px;
+  top: 4.37px;
+}
+.DeSelect::before {
+  position: absolute;
+  top: 4.37px;
+  left: 7px;
+  content: "";
+  height: 8px;
+  border-left: 1px solid #fff;
+  position: absolute;
+  transform: rotate(-45deg);
 }
 .DeSelectBox {
   position: absolute;
@@ -111,9 +121,91 @@
   color: #000000;
   opacity: 1;
 }
-.HorizontalLine{
+.HorizontalLine {
   position: relative;
-  top:120px;
-  width:1309px;
-  left:30px;
+  top: 120px;
+  width: 1309px;
+  left: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .RecommendedProducts {
+    position: absolute;
+    font: normal normal bold 28px/40px Calibri;
+  }
+  .Filters {
+  position: absolute;
+  left: 40px;
+}
+.Continental{
+  position: absolute;
+  top: 160px;
+  left: 151px;
+  width: 131px;
+  height: 32px;
+}
+.SortBy {
+  position: absolute;
+  left : 810px;
+}
+.Popularity{
+  position: absolute;
+  left: 869px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .RecommendedProducts {
+    position: absolute;
+    font: normal normal bold 20px/28px Calibri;
+    left: 32px;
+    top: 117px;
+    width: 202px;
+    height: 20px;
+  }
+  .Filters{
+    position: absolute;
+
+    left: 32px;
+    top: 170px;
+    width: 91px;
+    height:15px;
+  }
+  .Continental{
+  position: absolute;
+  left: 130px;
+}
+.SortBy {
+  position: absolute;
+  /* width: 45px; */
+  height: 15px;
+  left : 568.04px;
+  height : 170px;
+}
+.Popularity{
+  position: absolute;
+  left: 621px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .RecommendedProducts {
+    position: absolute;
+    font: normal normal bold 20px/28px Calibri;
+    left: 18px;
+    top: 72px;
+    width: 202px;
+    height: 20px;
+    display: block;
+  }
+  .Filters{
+    display: none;
+  }
+  .Continental{
+    display: none;
+  }
+  .SortBy {
+  display: none;
+}
+.Popularity{
+  display: none;
+}
 }

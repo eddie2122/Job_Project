@@ -32,6 +32,17 @@
 .Background {
   background-color: black;
 }
+.ProductContainer1 {
+  position: absolute;
+  top: 416px;
+  left: 30px;
+  width: 1306px;
+  height: 80px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 6px 6px 16px #00000008;
+  border-radius: 1px;
+  opacity: 1;
+}
 .ProductContainer2 {
   position: absolute;
   top: 513px;
@@ -54,6 +65,54 @@
   opacity: 1;
   position: absolute;
 }
-button{
+button {
   outline: none;
+}
+@media only screen and (max-width: 1024px) {
+  .PremiumSellerBox {
+    position: absolute;
+    width: 464px;
+    height: 175px;
+    left: 520px;
+    top: 225px;
+  }
+  .ProductContainer1 {
+    position: absolute;
+    width: 944px;
+    height: 80px;
+    left: 40px;
+    top: 415px;
+  }
+  .ProductContainer2 {
+    position: absolute;
+    width: 944px;
+    height: 80px;
+    left: 40px;
+    top: 512px;
+  }
+  .ProductContainer3 {
+    position: absolute;
+    width: 944px;
+    height: 80px;
+    left: 40px;
+    top: 608px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .PremiumSellerBox {
+    position: absolute;
+    width: 344px;
+    height: 236px;
+    left: 392px;
+    top: 220px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .PremiumSellerBox {
+    position: absolute;
+    width: 280px;
+    height: 236px;
+    left: 302px;
+    top: 120px;
+  }
 }

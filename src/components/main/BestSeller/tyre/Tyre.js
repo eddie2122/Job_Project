@@ -51,19 +51,18 @@ export default class Tyre extends React.Component {
                 <p className="Model"><i>{this.state.model}</i></p>
                 <p className="Stock"><i>Stock</i></p>
                 <div className="StockAvailable">
-                    <div className="Tick"></div>
                 </div>
-                <p className="Price"><i>Price 340</i></p>
-                <p className="Total"><i>Total</i></p>
+                <p className="Price"><i>Price </i></p>
+                <p className="PriceNum"><i>&#8362;340 </i></p>
+                <p className="TotalA"><i>Total</i></p>
                 <div className="Count"><div className="CountNumber">{this.state.count}</div></div>
                 <button className="Button-" onClick={this.decrement}>-</button>
                 <button className="ButtonPlus" onClick={this.increment}>+</button>
-                <div className="TotalPrice">{this.state.count * 340} </div>
+                <div className="TotalPrice">&#8362;{this.state.count * 340} </div>
                 <button onclick={this.thankYou}className="CartBox">
                     <img src="/images/cart-sharp-black.png" alt="Cart" className="YelloCartIMage"></img>
                     <p className="AddToCart">Add to Cart</p>
                 </button>
-                <p className="Total Cash">total {this.state.count * 340}</p>
             </div>
         )
     }
