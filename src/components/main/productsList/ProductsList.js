@@ -40,9 +40,10 @@ export class ProductsList extends Component {
                 <button className="Buttoninc" onClick={this.increment}>+</button>
                 <p className="PriceC"><i>Price &#8362;340</i></p>
                 <p className="TotalCash">Total &#8362;{this.state.count * 340}</p>
+                <p className="Save">Save &#8362;408</p>
                 <button onclick={this.thankYou}className={this.props.classDivBox}>
-                    <img src={this.props.img} alt="Cart" className={this.props.classImg}></img>
-                    <p className="AddToCartC">{this.props.name}</p>
+                    <img src={this.props.img} alt="Cart" className={this.props.classImg} id="NoBackground"></img>
+                    <p className="AddToCartC" id="AddToCartN">{this.props.name}</p>
                 </button>
             </div>
         )

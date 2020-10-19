@@ -45,6 +45,60 @@ function App() {
       tyresAvailable = "Back in 1 week"
       />
       </div>
+      <div className="ProductContainer9">
+      <ProductsList 
+      name = "Add to Cart"
+      img = "/images/cart-sharp-black.png"
+      classImg = "YelloCartIMageC"
+      classDivBox = "CartBoxC"
+      tyresAvailable = "Back in 1 week"
+      />
+      </div>
+      <div className="ProductContainer4">
+      <ProductsList 
+      name = "Add to Cart"
+      img = "/images/cart-sharp-black.png"
+      classImg = "YelloCartIMageC"
+      classDivBox = "CartBoxC"
+      tyresAvailable = "Back in 1 week"
+      />
+      </div>
+      <div className="ProductContainer5">
+      <ProductsList 
+      name = "Add to Cart"
+      img = "/images/cart-sharp-black.png"
+      classImg = "YelloCartIMageC"
+      classDivBox = "CartBoxC"
+      tyresAvailable = "Back in 1 week"
+      />
+      </div>
+      <div className="ProductContainer6">
+      <ProductsList 
+      name = "Add to Cart"
+      img = "/images/cart-sharp-black.png"
+      classImg = "YelloCartIMageC"
+      classDivBox = "CartBoxC"
+      tyresAvailable = "Back in 1 week"
+      />
+      </div>
+      <div className="ProductContainer7">
+      <ProductsList 
+      name = "Add to Cart"
+      img = "/images/cart-sharp-black.png"
+      classImg = "YelloCartIMageC"
+      classDivBox = "CartBoxC"
+      tyresAvailable = "Back in 1 week"
+      />
+      </div>
+      <div className="ProductContainer8">
+      <ProductsList 
+      name = "Add to Cart"
+      img = "/images/cart-sharp-black.png"
+      classImg = "YelloCartIMageC"
+      classDivBox = "CartBoxC"
+      tyresAvailable = "Back in 1 week"
+      />
+      </div>
     </div>
     
   )

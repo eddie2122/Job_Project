@@ -12,7 +12,6 @@
   color: #000000;
   opacity: 1;
 }
-
 .Logoimg {
   position: absolute;
   top: 14.06px;
@@ -216,7 +215,7 @@
   position: absolute;
   top: 45px;
   left: 490px;
-  width: 90px;
+  width: 64px;
   height: 15px;
   color: var(--unnamed-color-000000);
   text-align: center;
@@ -224,6 +223,9 @@
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
+}
+.Save {
+  display: none;
 }
 @media only screen and (max-width: 1024px) {
   .ContinentalP6 {
@@ -248,23 +250,431 @@
     left: 274px;
     top: 19px;
   }
-  .Suv{
+  .Suv {
     position: absolute;
     width: 27px;
     height: 16px;
-    left: 874px;
+    left: 274px;
     top: 43px;
   }
-  .PriceC{
+  .PriceC {
     position: absolute;
     left: 475px;
     top: 32px;
   }
-  .TotalCash{
+  .TotalCash {
     position: absolute;
     width: 101px;
     height: 20px;
     top: 30px;
     left: 723px;
+  }
+  .StockAvailableYes {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 440px;
+    top: 32px;
+  }
+  .StockPL {
+    position: absolute;
+    left: 397px;
+    top: 28px;
+    width: 36px;
+    height: 16px;
+  }
+  .CountC {
+    position: absolute;
+    width: 88px;
+    height: 40px;
+    left: 593px;
+    top: 20px;
+  }
+  .Buttondec {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 577px;
+    top: 20px;
+  }
+  .Buttoninc {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 657px;
+    top: 20px;
+  }
+  .CartBoxC {
+    position: absolute;
+    width: 77px;
+    height: 40px;
+    left: 840px;
+    top: 20px;
+  }
+  .AddToCartC {
+    display: none;
+  }
+  .AvailableTyres {
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    left: 393px;
+    top: 45px;
+  }
+  .BellBoxC {
+    position: absolute;
+    width: 77px;
+    height: 40px;
+    left: 840px;
+    top: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ContinentalP6 {
+    position: absolute;
+    width: 135px;
+    height: 32px;
+    left: 19px;
+    top: 16px;
+    font: normal normal bold 16px/23px Calibri;
+  }
+  .Logoimg {
+    position: absolute;
+    width: 44px;
+    height: 35.75px;
+    left: 19px;
+    top: 59px;
+  }
+  .TyreSize {
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 180px;
+    top: 17px;
+  }
+  .Suv {
+    position: absolute;
+    width: 24px;
+    height: 15px;
+    left: 180px;
+    top: 36px;
+  }
+  .PriceC {
+    position: absolute;
+    width: 28px;
+    height: 15px;
+    left: 180px;
+    top: 59px;
+  }
+  .TotalCash {
+    position: absolute;
+    width: 94px;
+    height: 15px;
+    top: 59px;
+    left: 228px;
+  }
+  .StockAvailableYes {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 86px;
+    top: 79px;
+  }
+  .StockPL {
+    position: absolute;
+    left: 77px;
+    top: 59px;
+    width: 31px;
+    height: 15px;
+  }
+  .CountC {
+    position: absolute;
+    width: 85px;
+    height: 40px;
+    left: 39px;
+    top: 102px;
+  }
+  .Buttondec {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 19px;
+    top: 102px;
+  }
+  .Buttoninc {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 104px;
+    top: 102px;
+  }
+  .CartBoxC {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 180px;
+    top: 102px;
+  }
+  .AvailableTyres {
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    left: 393px;
+    top: 45px;
+  }
+  .BellBoxC {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 174px;
+    top: 102px;
+  }
+  .AddToCartC {
+    display: block;
+  }
+  .AvailableTyres {
+    display: none;
+  }
+  .Save {
+    display: block;
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    left: 228px;
+    top: 78px;
+    text-align: left;
+    font: normal normal normal 14px/21px Calibri;
+    letter-spacing: 0px;
+    color: #8e1216;
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ContinentalP6 {
+    position: absolute;
+    display: block;
+    width: 135px;
+    height: 40px;
+    left: 19px;
+    top: 16px;
+    font: normal normal bold 16px/24px Calibri;
+  }
+  .Logoimg {
+    position: absolute;
+    width: 44px;
+    height: 35.75px;
+    left: 19px;
+    top: 59px;
+  }
+  .TyreSize {
+    position: absolute;
+    display: block;
+    width: 92px;
+    height: 15px;
+    left: 174px;
+    top: 17px;
+  }
+  .Suv {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 15px;
+    left: 174px;
+    top: 36px;
+  }
+  .PriceC {
+    position: absolute;
+    display: block;
+    width: 28px;
+    left: 174px;
+    top: 59px;
+  }
+  .TotalCash {
+    position: absolute;
+    display: block;
+    width: 101px;
+    height: 20px;
+    top: 59px;
+    left: 222px;
+  }
+  .StockAvailableYes {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 440px;
+    top: 32px;
+  }
+  .StockPL {
+    position: absolute;
+    display: block;
+    left: 397px;
+    top: 28px;
+    width: 31px;
+    height: 15px;
+  }
+  .CountC {
+    position: absolute;
+    width: 88px;
+    height: 40px;
+    left: 593px;
+    top: 20px;
+  }
+  .Buttondec {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 577px;
+    top: 20px;
+  }
+  .Buttoninc {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 657px;
+    top: 20px;
+  }
+  .CartBoxC {
+    position: absolute;
+    width: 77px;
+    height: 40px;
+    left: 840px;
+    top: 20px;
+  }
+  .AddToCartC {
+    display: none;
+  }
+  .AvailableTyres {
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    left: 393px;
+    top: 45px;
+  }
+  .BellBoxC {
+    position: absolute;
+    width: 77px;
+    height: 40px;
+    left: 840px;
+    top: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ContinentalP6 {
+    position: absolute;
+    width: 135px;
+    height: 32px;
+    left: 19px;
+    top: 16px;
+    font: normal normal bold 16px/23px Calibri;
+  }
+  .Logoimg {
+    position: absolute;
+    width: 44px;
+    height: 35.75px;
+    left: 19px;
+    top: 59px;
+  }
+  .TyreSize {
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 180px;
+    top: 17px;
+  }
+  .Suv {
+    position: absolute;
+    width: 24px;
+    height: 15px;
+    left: 180px;
+    top: 36px;
+  }
+  .PriceC {
+    position: absolute;
+    width: 28px;
+    height: 15px;
+    left: 180px;
+    top: 59px;
+  }
+  .TotalCash {
+    position: absolute;
+    width: 94px;
+    height: 15px;
+    top: 59px;
+    left: 228px;
+  }
+  .StockAvailableYes {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 86px;
+    top: 79px;
+  }
+  .StockPL {
+    position: absolute;
+    left: 77px;
+    top: 59px;
+    width: 31px;
+    height: 15px;
+  }
+  .CountC {
+    position: absolute;
+    width: 85px;
+    height: 40px;
+    left: 39px;
+    top: 102px;
+  }
+  .Buttondec {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 19px;
+    top: 102px;
+  }
+  .Buttoninc {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 104px;
+    top: 102px;
+  }
+  .CartBoxC {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 180px;
+    top: 102px;
+  }
+  .AvailableTyres {
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    left: 393px;
+    top: 45px;
+  }
+  .BellBoxC {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 174px;
+    top: 102px;
+  }
+  .AddToCartC {
+    display: block;
+  }
+  .AvailableTyres {
+    display: none;
+  }
+  .Save {
+    display: block;
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    left: 228px;
+    top: 78px;
+    text-align: left;
+    font: normal normal normal 14px/21px Calibri;
+    letter-spacing: 0px;
+    color: #8e1216;
+    opacity: 1;
   }
 }

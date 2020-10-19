@@ -7,7 +7,7 @@
   top: -162px;
   left: 0px;
   width: 1366px;
-  height: 947px;
+  height: 1166px;
   /* background: transparent url("/images/img/bg_grey_tile.png") 0% 0% no-repeat
     padding-box; */
   /* opacity: 0.5; */
@@ -68,6 +68,24 @@
 button {
   outline: none;
 }
+.ProductContainer4 {
+  display: none;
+}
+.ProductContainer5 {
+  display: none;
+}
+.ProductContainer6 {
+  display: none;
+}
+.ProductContainer7 {
+  display: none;
+}
+.ProductContainer8 {
+  display: none;
+}
+.ProductContainer9 {
+  display: none;
+}
 @media only screen and (max-width: 1024px) {
   .PremiumSellerBox {
     position: absolute;
@@ -106,6 +124,102 @@ button {
     left: 392px;
     top: 220px;
   }
+  .SellerBox {
+    position: absolute;
+    width: 344px;
+    height: 236px;
+    left: 16px;
+    top: 220px;
+  }
+  .ProductContainer1 {
+    position: absolute;
+    width: 344px;
+    height: 158px;
+    left: 32px;
+    top: 475px;
+  }
+  .ProductContainer2 {
+    position: absolute;
+    width: 344px;
+    height: 158px;
+    left: 392px;
+    top: 475px;
+  }
+  .ProductContainer3 {
+    display: none;
+  }
+  .ProductContainer4 {
+    position: absolute;
+    width: 344px;
+    height: 158px;
+    left: 392px;
+    top: 649px;
+    display: block;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 16px #00000008;
+    border-radius: 1px;
+    opacity: 1;
+  }
+  .ProductContainer5 {
+    position: absolute;
+    width: 344px;
+    height: 158px;
+    left: 32px;
+    top: 823px;
+    display: block;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 16px #00000008;
+    border-radius: 1px;
+    opacity: 1;
+  }
+  .ProductContainer6 {
+    position: absolute;
+    width: 344px;
+    height: 158px;
+    left: 392px;
+    top: 823px;
+    display: block;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 16px #00000008;
+    border-radius: 1px;
+    opacity: 1;
+  }
+  .ProductContainer7 {
+    position: absolute;
+    width: 344px;
+    height: 158px;
+    left: 32px;
+    top: 997px;
+    display: block;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 16px #00000008;
+    border-radius: 1px;
+    opacity: 1;
+  }
+  .ProductContainer8 {
+    position: absolute;
+    width: 344px;
+    height: 158px;
+    left: 392px;
+    top: 997px;
+    display: block;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 16px #00000008;
+    border-radius: 1px;
+    opacity: 1;
+  }
+  .ProductContainer9 {
+    position: absolute;
+    width: 344px;
+    height: 158px;
+    left: 32px;
+    top: 649px;
+    display: block;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 16px #00000008;
+    border-radius: 1px;
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 600px) {
   .PremiumSellerBox {
@@ -114,5 +228,56 @@ button {
     height: 236px;
     left: 302px;
     top: 120px;
+  }
+  .SellerBox {
+    position: absolute;
+    width: 344px;
+    height: 236px;
+    left: 16px;
+    top: 220px;
+  }
+  .ProductContainer1 {
+    position: absolute;
+    width: 338px;
+    height: 158px;
+    left: 18px;
+    top: 372px;
+  }
+  .ProductContainer2 {
+    position: absolute;
+    width: 338px;
+    height: 158px;
+    left: 18px;
+    top: 546px;
+  }
+  .ProductContainer3 {
+    display: none;
+  }
+  .ProductContainer4 {
+    display: none;
+  }
+  .ProductContainer5 {
+    display: none;
+  }
+  .ProductContainer6 {
+    display: none;
+  }
+  .ProductContainer7 {
+    display: none;
+  }
+  .ProductContainer8 {
+    display: none;
+  }
+  .ProductContainer9 {
+    position: absolute;
+    width: 338px;
+    height: 158px;
+    left: 18px;
+    top: 720px;
+    display: block;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 16px #00000008;
+    border-radius: 1px;
+    opacity: 1;
   }
 }
