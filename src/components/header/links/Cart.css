@@ -42,7 +42,7 @@
     left: 682px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
   .Account-Box-Cart {
     height: 56px;
     left: 315px;

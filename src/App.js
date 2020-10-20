@@ -4,6 +4,7 @@ import './App.css'
 import Products from './components/products/Products';
 import Tyre from './components/main/BestSeller/tyre/Tyre'
 import ProductsList from './components/main/productsList/ProductsList'
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       classImg = "YelloCartIMageC"
       classDivBox = "CartBoxC"
       tyresAvailable = "8 Tires Left"
+      StockAvailableYes = "StockAvailableLimited"
       />
       </div>
       <div className="ProductContainer3">
@@ -43,6 +45,7 @@ function App() {
       classImg = "YelloBellImage"
       classDivBox = "BellBoxC"
       tyresAvailable = "Back in 1 week"
+      StockAvailableYes = "StockAvailableNo"
       />
       </div>
       <div className="ProductContainer9">
@@ -52,6 +55,7 @@ function App() {
       classImg = "YelloCartIMageC"
       classDivBox = "CartBoxC"
       tyresAvailable = "Back in 1 week"
+      StockAvailableYes = "StockAvailableYes"
       />
       </div>
       <div className="ProductContainer4">
@@ -61,6 +65,7 @@ function App() {
       classImg = "YelloCartIMageC"
       classDivBox = "CartBoxC"
       tyresAvailable = "Back in 1 week"
+      StockAvailableYes = "StockAvailableYes"
       />
       </div>
       <div className="ProductContainer5">
@@ -70,6 +75,7 @@ function App() {
       classImg = "YelloCartIMageC"
       classDivBox = "CartBoxC"
       tyresAvailable = "Back in 1 week"
+      StockAvailableYes = "StockAvailableYes"
       />
       </div>
       <div className="ProductContainer6">
@@ -79,6 +85,7 @@ function App() {
       classImg = "YelloCartIMageC"
       classDivBox = "CartBoxC"
       tyresAvailable = "Back in 1 week"
+      StockAvailableYes = "StockAvailableYes"
       />
       </div>
       <div className="ProductContainer7">
@@ -88,6 +95,7 @@ function App() {
       classImg = "YelloCartIMageC"
       classDivBox = "CartBoxC"
       tyresAvailable = "Back in 1 week"
+      StockAvailableYes = "StockAvailableYes"
       />
       </div>
       <div className="ProductContainer8">
@@ -97,8 +105,10 @@ function App() {
       classImg = "YelloCartIMageC"
       classDivBox = "CartBoxC"
       tyresAvailable = "Back in 1 week"
+      StockAvailableYes = "StockAvailableYes"
       />
       </div>
+      <Footer/>
     </div>
     
   )

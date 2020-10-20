@@ -186,6 +186,65 @@
   opacity: 1;
   border-radius: 50%;
 }
+.StockAvailableLimited {
+  position: absolute;
+  left: 538.54px;
+  top: 26.07px;
+  width: 14px;
+  height: 14px;
+  background: var(--unnamed-color-ffa500) 0% 0% no-repeat padding-box;
+  background: #ffa500 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+.StockAvailableLimited::before {
+  position: absolute;
+  top: 3.37px;
+  left: 6px;
+  content: "";
+  height: 6px;
+  border-left: 2px solid #fff;
+  position: absolute;
+}
+.StockAvailableLimited::after {
+  position: absolute;
+  top: 10.37px;
+  left: 6.37px;
+  content: "";
+  height: 2px;
+  border-left: 2px solid #fff;
+  position: absolute;
+}
+.StockAvailableNo::after {
+  content: "";
+  height: 8px;
+  border-left: 1px solid #fff;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 7px;
+  top: 3.37px;
+}
+.StockAvailableNo::before {
+  position: absolute;
+  top: 3.37px;
+  left: 7px;
+  content: "";
+  height: 8px;
+  border-left: 1px solid #fff;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+.StockAvailableNo {
+  position: absolute;
+  top: 24px;
+  left: 534px;
+  width: 14px;
+  height: 14px;
+  background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+  background:#8E1216 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+}
 .StockAvailableYes::after {
   position: absolute;
   top: 2.37px;
@@ -214,8 +273,8 @@
 .AvailableTyres {
   position: absolute;
   top: 45px;
-  left: 490px;
-  width: 64px;
+  left: 470px;
+  width: 117px;
   height: 15px;
   color: var(--unnamed-color-000000);
   text-align: center;
@@ -223,6 +282,7 @@
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
+  display: none;
 }
 .Save {
   display: none;
@@ -274,7 +334,21 @@
     width: 14px;
     height: 14px;
     left: 440px;
-    top: 32px;
+    top: 30px;
+  }
+  .StockAvailableLimited{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 440px;
+    top: 30px
+  }
+  .StockAvailableNo {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 440px;
+    top: 30px;
   }
   .StockPL {
     position: absolute;
@@ -314,19 +388,26 @@
   .AddToCartC {
     display: none;
   }
-  .AvailableTyres {
+  .AvailableTyres{
     position: absolute;
     width: 64px;
     height: 15px;
-    left: 393px;
+    left: 490px;
     top: 45px;
   }
   .BellBoxC {
     position: absolute;
-    width: 77px;
+    width: 117px;
     height: 40px;
     left: 840px;
     top: 20px;
+  }
+  .AvailableTyres {
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    left: 490px;
+    top: 45px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -374,6 +455,20 @@
     left: 228px;
   }
   .StockAvailableYes {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 86px;
+    top: 79px;
+  }
+  .StockAvailableLimited {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 86px;
+    top: 79px;
+  }
+  .StockAvailableNo {
     position: absolute;
     width: 14px;
     height: 14px;
@@ -449,7 +544,7 @@
     opacity: 1;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
   .ContinentalP6 {
     position: absolute;
     display: block;

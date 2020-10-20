@@ -43,7 +43,7 @@
     left: 552px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
   .Account-Box-Profile {
     position: absolute;
     height: 56px;

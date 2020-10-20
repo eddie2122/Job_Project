@@ -24,7 +24,7 @@
   opacity: 1;
 }
 
-@media screen and (max-Width: 600px){
+@media screen and (max-Width: 375px){
   .Option-sharp{
     left: 6px;
     top:3px;
